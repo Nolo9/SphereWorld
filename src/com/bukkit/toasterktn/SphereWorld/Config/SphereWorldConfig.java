@@ -42,7 +42,7 @@ public class SphereWorldConfig {
 	        BetterConfig config = new BetterConfig(configFile);
 	        config.load();
 	     	
-	     	world  = config.getString("world", "sphere");
+	     	world  = config.getString("world", "nolosphere");
 	     	useglass = config.getBoolean("useglass", true);
 	     	usehalfglass = config.getBoolean("usehalfglass", false);
 	     	userandomglass = config.getBoolean("userandomglass", false);
